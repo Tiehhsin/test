@@ -5,3 +5,6 @@ from django.test import TestCase
 def test(request):
 
     return HttpResponse("ok")
+
+def test2(request):
+    return HttpResponse("ok")
